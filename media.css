@@ -1,0 +1,192 @@
+/* メディアクエリ */
+
+/* ヘッダー */
+@media screen and (max-width: 767px){
+  .header {
+    overflow: unset;
+}
+
+.header_title {
+    width: 100%;
+    text-align: center;
+}
+
+.header_nav {
+    position: absolute;
+    right: 1px;
+    top: -700px;
+    width: 40%;
+    height:200px;
+    margin:0;
+    background: rgba(119, 119, 119, 0.7);
+    padding: 0 10px;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    text-align: left;
+}
+
+.header_nav ul {
+    display: block;
+    width:100%;
+    top:0;
+}
+
+.header_nav li {
+    width: 100%;
+    height:50px;
+    display: block;
+    margin: 0;
+    line-height: 1;
+    border-bottom: 2px solid #fff;
+}
+
+.header_nav li:last-child {
+    border-bottom: none;
+}
+
+
+
+.header_nav li a {
+    display: block;
+    color: #fff;
+}
+.header_nav a:hover{
+  color: #fff;
+  
+}
+#js-nav-toggle {
+    display: block;
+}
+
+.openNav #js-nav-toggle span:nth-child(1) {
+    top: 11px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+}
+
+.openNav #js-nav-toggle span:nth-child(2),.openNav #js-nav-toggle span:nth-child(3) {
+  top: 11px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+
+.openNav .header_nav {
+    transform: translateY(780px);
+    -webkit-transform: translateY(780px);
+    -moz-transform: translateY(780px);
+}
+
+
+main{
+  width:100%;
+}
+
+.greeting-container {
+  background: unset;
+  border: none;
+  margin:80px 0;
+}
+.main-visual_img {
+  width: 100%;
+  height:400px;
+  margin: 0 auto;
+  position: relative;
+}
+.main-visual_greeting {
+  width: 100%;
+  height:400px;
+  margin: 0 auto;
+  position: absolute;
+  top: 80px;
+  background: rgb(249, 249, 249, 0.8);
+}
+.greeting-1 {
+  width: 50%;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.greeting-2 {
+  width: 80%;
+  font-size: 16px;
+  margin:0 auto;
+}
+.greeting-2＿br{
+  display:inline;
+}
+main h2 {
+  width: 30%;
+}
+
+/* Introduction */
+.introduction {
+  display:block;
+}
+.introduction-box-1 {
+  width: 100%;
+  margin: 10px auto;
+}
+.introduction-box-2 {
+  width: 70%;
+  margin: 0 auto 30px;
+}
+.introduction-box-2__br{
+  display:inline;
+}
+
+/* Slills */
+.skills-container {
+  width: 90%;
+}
+.skills-box {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  line-height: 150px;
+  font-size: 24px;
+}
+
+/* Contact */
+.contact__br{
+  display: inline;
+}
+
+/* アニメーション */
+#js-page-top {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+}
+
+#js-page-top i {
+  line-height: 40px;
+  text-align: center;
+  margin-left: 13px;
+}
+
+.fade-element-left:nth-of-type(2) {
+  transform: translateY(-50px);
+}
+
+.fade-left:nth-of-type(2) {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+.fade-element-right {
+  transform: translateY(-50px);
+}
+
+.fade-right {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+}
